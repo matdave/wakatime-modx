@@ -8,3 +8,46 @@ menus:
     -
         text: wakatime.menu
         action: manage
+systemSettings:
+    -
+        key: api_key
+    -
+        key: enabled
+        value: '0'
+        type: combo-boolean
+    -
+        key: project
+    -
+        key: branch
+        value: 'main'
+
+plugins:
+    -
+        name: Wakatime
+        file: Wakatime.php
+        events:
+            - OnCategoryRemove
+            - OnCategorySave
+            - OnChunkFormDelete
+            - OnChunkFormSave
+            - OnContextRemove
+            - OnContextSave
+            - OnDocFormDelete
+            - OnDocFormSave
+            - OnFileManagerDirCreate
+            - OnFileManagerDirRemove
+            - OnFileManagerDirRename
+            - OnFileManagerFileCreate
+            - OnFileManagerFileRemove
+            - OnFileManagerFileRename
+            - OnManagerPageInit
+            - OnPluginFormDelete
+            - OnPluginFormSave
+            - OnSnippetFormDelete
+            - OnSnippetFormSave
+            - OnTempFormDelete
+            - OnTempFormSave
+            - OnTVFormDelete
+            - OnTVFormSave
+            - OnUserFormDelete
+            - OnUserFormSave
