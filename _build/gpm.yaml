@@ -1,0 +1,10 @@
+name: WakaTime
+version: 0.0.1
+lowCaseName: wakatime
+namespace: WakaTime
+description: 'Wakatime integration for MODX'
+author: matdave
+menus:
+    -
+        text: wakatime.menu
+        action: manage
