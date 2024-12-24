@@ -8,8 +8,8 @@ Install via the MODX package manager.
 
 ## Configuration
 
-1. Go to the Wakatime page in the MODX manager.
-2. Enter your API key from Wakatime.
+1. Go to the WakaTime page in the MODX manager.
+2. Enter your API key from WakaTime.
 3. Click on the "Test" button to verify the connection.
 4. If successful, change "Enabled" to "Yes".
 
@@ -19,4 +19,4 @@ You may also adjust the "Project" and "Branch" settings to your liking. The defa
 
 ## Usage
 
-After installation and configuration, your time will be tracked automatically. You can view your tracked time on the Wakatime website.
+After installation and configuration, your time will be tracked automatically. You can view your tracked time on the WakaTime website.
