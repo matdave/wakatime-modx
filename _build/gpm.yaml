@@ -2,7 +2,7 @@ name: WakaTime
 version: 1.0.0
 lowCaseName: wakatime
 namespace: WakaTime
-description: 'Wakatime integration for MODX'
+description: 'WakaTime integration for MODX'
 author: matdave
 menus:
     -

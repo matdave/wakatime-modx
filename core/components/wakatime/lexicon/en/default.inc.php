@@ -1,7 +1,7 @@
 <?php
 
-$_lang['wakatime.menu'] = 'Wakatime';
-$_lang['wakatime.manage.page_title'] = 'Wakatime';
+$_lang['wakatime.menu'] = 'WakaTime';
+$_lang['wakatime.manage.page_title'] = 'WakaTime';
 $_lang['wakatime.manage.settings'] = 'Settings';
 $_lang['wakatime.manage.settings_desc'] = 'Configure WakaTime settings for your user.';
 $_lang['wakatime.manage.test'] = 'Test';
@@ -12,10 +12,10 @@ $_lang['setting_wakatime.api_key_desc_shr'] = '<a href="https://wakatime.com/api
 $_lang['setting_wakatime.enabled'] = 'Enabled';
 $_lang['setting_wakatime.enabled_desc'] = 'Enable WakaTime tracking for this user. (Do not set system wide)';
 $_lang['setting_wakatime.project'] = 'Project';
-$_lang['setting_wakatime.project_desc'] = 'Project name for Wakatime tracking. Defaults to the site name.';
+$_lang['setting_wakatime.project_desc'] = 'Project name for WakaTime tracking. Defaults to the site name.';
 $_lang['setting_wakatime.project_desc_shr'] = 'Defaults to the site name.';
 $_lang['setting_wakatime.branch'] = 'Branch';
-$_lang['setting_wakatime.branch_desc'] = 'Branch name for Wakatime tracking.';
+$_lang['setting_wakatime.branch_desc'] = 'Branch name for WakaTime tracking.';
 
 $_lang['wakatime.err_settings.field_required'] = 'Field is required.';
 $_lang['wakatime.err_settings.not_found'] = 'Setting not found.';
