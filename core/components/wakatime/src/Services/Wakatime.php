@@ -43,6 +43,13 @@ class Wakatime
         }
     }
 
+    public function test(): array
+    {
+        $url = '/users/current?api_key=' . $this->token;
+
+        return $this->sendRequest($url);
+    }
+
     public function sendHeartbeat(Heartbeat $data): array
     {
         $url = '/users/current/heartbeats?api_key=' . $this->token;

@@ -1,5 +1,5 @@
 name: WakaTime
-version: 0.0.1
+version: 1.0.0
 lowCaseName: wakatime
 namespace: WakaTime
 description: 'Wakatime integration for MODX'
@@ -26,6 +26,8 @@ plugins:
         name: Wakatime
         file: Wakatime.php
         events:
+            - FredOnFredResourceLoad
+            - FredOnFredResourceSave
             - OnCategoryRemove
             - OnCategorySave
             - OnChunkFormDelete
@@ -41,6 +43,8 @@ plugins:
             - OnFileManagerFileRemove
             - OnFileManagerFileRename
             - OnManagerPageInit
+            - OnMediaSourceFormDelete
+            - OnMediaSourceFormSave
             - OnPluginFormDelete
             - OnPluginFormSave
             - OnSnippetFormDelete

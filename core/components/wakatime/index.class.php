@@ -1,4 +1,8 @@
 <?php
+
+use MODX\Revolution\modSystemSetting;
+use MODX\Revolution\modUserSetting;
+
 abstract class WakaTimeBaseManagerController extends modExtraManagerController {
     /** @var \WakaTime\Service $wakatime */
     public $wakatime;
@@ -9,7 +13,14 @@ abstract class WakaTimeBaseManagerController extends modExtraManagerController {
 
         $this->addCss($this->wakatime->getOption('cssUrl') . 'mgr.css');
         $this->addJavascript($this->wakatime->getOption('jsUrl') . 'mgr/wakatime.js');
-
+        $sysSettings = $this->modx->getCollection(modSystemSetting::class, ['namespace' => 'wakatime']);
+        foreach ($sysSettings as $setting) {
+            $this->wakatime->config[$setting->get('key')] = $setting->get('value');
+        }
+        $userSettings = $this->modx->getCollection(modUserSetting::class, ['user' => $this->modx->user->get('id'), 'namespace' => 'wakatime']);
+        foreach ($userSettings as $setting) {
+            $this->wakatime->config[$setting->get('key')] = $setting->get('value');
+        }
         $this->addHtml('
             <script type="text/javascript">
                 Ext.onReady(function() {
