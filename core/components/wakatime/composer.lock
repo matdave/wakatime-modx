@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "matdave/modxpackage",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matdave/modxpackage.git",
-                "reference": "0ecf5d71bf285298b9f07c11c1ff1186ea04e5f5"
+                "reference": "d000bac1329e5e0f4afaba5ca064f88ef94d4520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matdave/modxpackage/zipball/0ecf5d71bf285298b9f07c11c1ff1186ea04e5f5",
-                "reference": "0ecf5d71bf285298b9f07c11c1ff1186ea04e5f5",
+                "url": "https://api.github.com/repos/matdave/modxpackage/zipball/d000bac1329e5e0f4afaba5ca064f88ef94d4520",
+                "reference": "d000bac1329e5e0f4afaba5ca064f88ef94d4520",
                 "shasum": ""
             },
             "require": {
@@ -51,9 +51,9 @@
             ],
             "support": {
                 "issues": "https://github.com/matdave/modxpackage/issues",
-                "source": "https://github.com/matdave/modxpackage/tree/1.0.1"
+                "source": "https://github.com/matdave/modxpackage/tree/1.0.3"
             },
-            "time": "2024-12-16T16:46:03+00:00"
+            "time": "2025-02-27T15:47:27+00:00"
         }
     ],
     "packages-dev": [
@@ -113,16 +113,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.336.1",
+            "version": "3.337.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bef061855d6db932aac8f354f774b9b3ad84ad14"
+                "reference": "06dfc8f76423b49aaa181debd25bbdc724c346d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bef061855d6db932aac8f354f774b9b3ad84ad14",
-                "reference": "bef061855d6db932aac8f354f774b9b3ad84ad14",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/06dfc8f76423b49aaa181debd25bbdc724c346d6",
+                "reference": "06dfc8f76423b49aaa181debd25bbdc724c346d6",
                 "shasum": ""
             },
             "require": {
@@ -205,9 +205,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.3"
             },
-            "time": "2024-12-19T19:03:08+00:00"
+            "time": "2025-01-21T19:10:05+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -969,16 +969,16 @@
         },
         {
             "name": "modx/revolution",
-            "version": "v3.1.0-pl",
+            "version": "v3.1.1-pl",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modxcms/revolution.git",
-                "reference": "62b154af9c6df94e98d80b4e178e64e508e6b966"
+                "reference": "f27967569494eaa992ca2dda34ea0c0da2db9afe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modxcms/revolution/zipball/62b154af9c6df94e98d80b4e178e64e508e6b966",
-                "reference": "62b154af9c6df94e98d80b4e178e64e508e6b966",
+                "url": "https://api.github.com/repos/modxcms/revolution/zipball/f27967569494eaa992ca2dda34ea0c0da2db9afe",
+                "reference": "f27967569494eaa992ca2dda34ea0c0da2db9afe",
                 "shasum": ""
             },
             "require": {
@@ -1081,7 +1081,7 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2024-12-18T15:16:11+00:00"
+            "time": "2025-02-18T15:41:14+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -1865,12 +1865,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -2411,12 +2411,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
